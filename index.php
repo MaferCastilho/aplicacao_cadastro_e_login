@@ -42,8 +42,8 @@
         <h3 class="float-md-start mb-0">Cover</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="cadastro.php">Features</a>
-          <a class="nav-link" href="login.php">Contact</a>
+          <a class="nav-link" href="cadastro.php">Features</a> 
+          <a class="nav-link" href="login.php">Contact</a> 
         </nav>
       </div>
     </header>
