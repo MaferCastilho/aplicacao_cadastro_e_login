@@ -15,9 +15,10 @@
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
+
     .bd-placeholder-img {
       font-size: 1.125rem;
-      text-anchor: middle;
+      text-anchor: middle; 
       -webkit-user-select: none;
       -moz-user-select: none;
       user-select: none;
@@ -41,9 +42,9 @@
       <div>
         <h3 class="float-md-start mb-0">Cover</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="cadastro.php">Features</a> 
-          <a class="nav-link" href="login.php">Contact</a> 
+          <a class="nav-link active" href="#">Página Inicial</a>
+          <a class="nav-link" href="cadastro.php">Cadastre-se</a> 
+          <a class="nav-link" href="login.php">Login</a> 
         </nav>
       </div>
     </header>
