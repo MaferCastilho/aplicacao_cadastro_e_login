@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.84.0">
+  <script src="cadastro.js"></script>
   <title>Login</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -43,7 +44,7 @@
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link" href="index.php">Página Inicial</a>
           <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-          <a class="nav-link active" aria-current="page" href="login.php">login</a>
+          <a class="nav-link active" aria-current="page" href="login.php">Login</a>
         </nav>
       </div>
     </header>
@@ -62,7 +63,7 @@
             <input type="password" class="form-control border border-info rounded-1" id="password"><br>
           </div>
 
-          <button type="button" onclick="Validar()">Cadastrar</button>
+          <button type="button" onclick="ValidarLogin()">Login</button>
       </div>
     </main>
 
