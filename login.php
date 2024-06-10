@@ -42,18 +42,28 @@
         <h3 class="float-md-start mb-0">Login</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link" href="index.php">Página Inicial</a>
-          <a class="nav-link" href="cadastro.php">Cadastre-se</a> 
-          <a class="nav-link active" aria-current="page" href="login.php">login</a> 
+          <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+          <a class="nav-link active" aria-current="page" href="login.php">login</a>
         </nav>
       </div>
     </header>
 
     <main class="px-3">
-      <h1>Cover your page.</h1>
-      <p class="lead"></p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-      </p>
+      <div class="p-3 mb-2">
+        <form class="row g-3 ">
+
+          <div class="col-6">
+            <label for="inputZip" class="form-label">E-mail</label><br>
+            <input type="text" class="form-control border border-info rounded-1 " id="email" placeholder="name@example.com"><br>
+          </div>
+
+          <div class="col-6">
+            <label for="senha" class="form-label">Senha</label><br>
+            <input type="password" class="form-control border border-info rounded-1" id="password"><br>
+          </div>
+
+          <button type="button" onclick="Validar()">Cadastrar</button>
+      </div>
     </main>
 
     <footer class="mt-auto text-white-50">
@@ -61,4 +71,5 @@
     </footer>
   </div>
 </body>
+
 </html>
