@@ -50,15 +50,15 @@
     </header>
 
     <main class="px-3">
-      <h1>Cover your page.</h1>
-      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+      <h1>Bem Vindo</h1>
+      <p class="lead">Acesse meu linkedin</p>
       <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        <a href="https://www.linkedin.com/in/maria-fernanda-castilho-ribeiro-247aa825a/" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
       </p>
     </main>
 
     <footer class="mt-auto text-white-50">
-      <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+      <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/MaferCastilho" class="text-white">@MaferCastilho</a>.</p>
     </footer>
   </div>
 </body>

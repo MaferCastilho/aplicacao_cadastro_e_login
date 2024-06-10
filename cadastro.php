@@ -42,23 +42,53 @@
         <h3 class="float-md-start mb-0">Cadastro</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link" aria-current="page" href="index.php">Página Inicial</a>
-          <a class="nav-link active" href="cadastro.php">Cadastre-se</a> 
-          <a class="nav-link" href="login.php">Login</a> 
+          <a class="nav-link active" href="cadastro.php">Cadastre-se</a>
+          <a class="nav-link" href="login.php">Login</a>
         </nav>
       </div>
     </header>
 
     <main class="px-3">
-      <h1>Cover your page.</h1>
-      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-      </p>
+      <div class="p-3 mb-2">
+        <form class="row g-3 ">
+
+          <div class="col-6">
+            <label for="inputZip" class="form-label">E-mail</label><br>
+            <input type="text" class="form-control border border-info rounded-1 " id="email" placeholder="name@example.com"><br>
+          </div>
+
+          <div class="col-6">
+            <label for="inputZip" class="form-label">Nome</label><br>
+            <input type="text" class="form-control border border-info rounded-1" id="nome"><br>
+          </div>
+
+          <div class="col-6">
+            <label for="inputZip" class="form-label">Data nascimento</label><br>
+            <input type="date" class="form-control border border-info rounded-1" id="dataNasc">
+          </div><br>
+
+          <div class="col-6">
+            <label for="inputZip" class="form-label">Telefone</label><br>
+            <input type="" class="form-control border border-info rounded-1" id="numero" placeholder="00 00000-0000"><br>
+          </div>
+
+          <div class="col-6">
+            <label for="senha" class="form-label">Senha</label><br>
+            <input type="password" class="form-control border border-info rounded-1" id="senha"><br>
+          </div>
+          
+          <div class="col-6">
+            <label for="confirmSenha" class="form-label">Confirme a Senha</label><br>
+            <input type="password" class="form-control border border-info rounded-1" id="confirmSenha"><br>
+          </div>
+      </div>
     </main>
+
 
     <footer class="mt-auto text-white-50">
       <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
     </footer>
   </div>
 </body>
+
 </html>
